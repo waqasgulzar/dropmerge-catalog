@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "interstitialAdFrequency": 3,
+  "rewardedCoinsPerAd": 50,
+  "skipLevelFailThreshold": 3,
+  "boosterPrices": {
+    "hammer": 100,
+    "bomb": 150,
+    "hold": 80,
+    "undo": 50
+  },
+  "featureFlags": {}
+}

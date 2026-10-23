@@ -1,0 +1,37 @@
+{
+  "catalogVersion": 1,
+  "minAppVersion": "0.1.0",
+  "publishedAtUtc": "2026-10-23T15:24:16.4757151Z",
+  "packs": [
+    {
+      "id": "pack_chapter_1",
+      "name": "Chapter 1",
+      "revision": 1,
+      "sha256": "64be14b0aaee18c360072b6d1f89681c78b18e06b52df052d499cb2d554b6935",
+      "levelCount": 20,
+      "url": "https://dropmerge.pages.dev/catalog/packs/pack_chapter_1.json",
+      "startsAtUtc": null,
+      "endsAtUtc": null
+    },
+    {
+      "id": "pack_chapter_2",
+      "name": "Chapter 2",
+      "revision": 1,
+      "sha256": "8409eeb89c16a95601f3df81db9c4c34e11bf98cbb84f6e212022ec82050a96c",
+      "levelCount": 20,
+      "url": "https://dropmerge.pages.dev/catalog/packs/pack_chapter_2.json",
+      "startsAtUtc": null,
+      "endsAtUtc": null
+    },
+    {
+      "id": "pack_chapter_3",
+      "name": "Chapter 3",
+      "revision": 1,
+      "sha256": "0d5f001cb6805c0f56c911cbe761e458e1dca10783193d2904f6ff9ed3bbfd78",
+      "levelCount": 20,
+      "url": "https://dropmerge.pages.dev/catalog/packs/pack_chapter_3.json",
+      "startsAtUtc": null,
+      "endsAtUtc": null
+    }
+  ]
+}
