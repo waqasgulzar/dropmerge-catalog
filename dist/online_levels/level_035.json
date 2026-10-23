@@ -1,0 +1,31 @@
+{
+  "id": 35,
+  "difficulty": "Easy",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 34,
+  "seed": 1035,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 30,
+      "4": 35,
+      "8": 25,
+      "16": 10
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 128,
+      "count": 1
+    }
+  ],
+  "obstacles": [],
+  "boosters": {},
+  "stars": [
+    34,
+    26,
+    18
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 40,
+  "difficulty": "SuperHard",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 42,
+  "seed": 1040,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 20,
+      "4": 30,
+      "8": 25,
+      "16": 20,
+      "32": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 256,
+      "count": 1
+    },
+    {
+      "type": "ClearObstacles",
+      "kind": "Ice",
+      "count": 4
+    }
+  ],
+  "obstacles": [
+    {
+      "kind": "Ice",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "kind": "Ice",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "kind": "Ice",
+      "column": 3,
+      "row": 0
+    },
+    {
+      "kind": "Ice",
+      "column": 4,
+      "row": 0
+    }
+  ],
+  "boosters": {
+    "hammer": 1,
+    "bomb": 1,
+    "undo": 1
+  },
+  "stars": [
+    42,
+    32,
+    24
+  ]
+}

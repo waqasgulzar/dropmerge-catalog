@@ -1,0 +1,47 @@
+{
+  "id": 32,
+  "difficulty": "Easy",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 34,
+  "seed": 1032,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 35,
+      "4": 35,
+      "8": 20,
+      "16": 10
+    }
+  },
+  "goals": [
+    {
+      "type": "ClearObstacles",
+      "kind": "Ice",
+      "count": 3
+    }
+  ],
+  "obstacles": [
+    {
+      "kind": "Ice",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "kind": "Ice",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "kind": "Ice",
+      "column": 3,
+      "row": 0
+    }
+  ],
+  "boosters": {},
+  "stars": [
+    34,
+    26,
+    18
+  ]
+}

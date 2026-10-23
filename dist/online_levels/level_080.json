@@ -1,0 +1,41 @@
+{
+  "id": 80,
+  "difficulty": "SuperHard",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 45,
+  "seed": 2080,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 10,
+      "4": 20,
+      "8": 25,
+      "16": 25,
+      "32": 15,
+      "64": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 256,
+      "count": 1
+    },
+    {
+      "type": "ReachScore",
+      "score": 2000
+    }
+  ],
+  "obstacles": [],
+  "boosters": {
+    "hammer": 2,
+    "bomb": 1,
+    "undo": 2
+  },
+  "stars": [
+    45,
+    36,
+    28
+  ]
+}

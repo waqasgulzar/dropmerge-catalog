@@ -1,0 +1,41 @@
+{
+  "id": 70,
+  "difficulty": "Hard",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 40,
+  "seed": 2070,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 15,
+      "4": 25,
+      "8": 25,
+      "16": 20,
+      "32": 10,
+      "64": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 256,
+      "count": 1
+    },
+    {
+      "type": "ReachScore",
+      "score": 1500
+    }
+  ],
+  "obstacles": [],
+  "boosters": {
+    "hammer": 1,
+    "bomb": 1,
+    "undo": 1
+  },
+  "stars": [
+    40,
+    32,
+    24
+  ]
+}

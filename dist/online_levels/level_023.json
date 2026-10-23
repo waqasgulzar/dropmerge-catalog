@@ -1,0 +1,47 @@
+{
+  "id": 23,
+  "difficulty": "Easy",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 34,
+  "seed": 1023,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 35,
+      "4": 40,
+      "8": 20,
+      "16": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 64,
+      "count": 1
+    },
+    {
+      "type": "ClearObstacles",
+      "kind": "Ice",
+      "count": 2
+    }
+  ],
+  "obstacles": [
+    {
+      "kind": "Ice",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "kind": "Ice",
+      "column": 4,
+      "row": 0
+    }
+  ],
+  "boosters": {},
+  "stars": [
+    34,
+    26,
+    18
+  ]
+}

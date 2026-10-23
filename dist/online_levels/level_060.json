@@ -1,0 +1,36 @@
+{
+  "id": 60,
+  "difficulty": "SuperHard",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 45,
+  "seed": 1060,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 15,
+      "4": 25,
+      "8": 25,
+      "16": 20,
+      "32": 10,
+      "64": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "ReachScore",
+      "score": 2000
+    }
+  ],
+  "obstacles": [],
+  "boosters": {
+    "hammer": 2,
+    "bomb": 1,
+    "undo": 2
+  },
+  "stars": [
+    45,
+    35,
+    28
+  ]
+}

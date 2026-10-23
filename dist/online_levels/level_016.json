@@ -1,0 +1,35 @@
+{
+  "id": 16,
+  "difficulty": "Medium",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 34,
+  "seed": 1016,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 35,
+      "4": 35,
+      "8": 20,
+      "16": 10
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 64,
+      "count": 1
+    },
+    {
+      "type": "ReachScore",
+      "score": 850
+    }
+  ],
+  "obstacles": [],
+  "boosters": {},
+  "stars": [
+    34,
+    26,
+    18
+  ]
+}

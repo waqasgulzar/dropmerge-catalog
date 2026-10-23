@@ -1,0 +1,52 @@
+{
+  "id": 69,
+  "difficulty": "Medium",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 40,
+  "seed": 2069,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 20,
+      "4": 25,
+      "8": 25,
+      "16": 20,
+      "32": 10
+    }
+  },
+  "goals": [
+    {
+      "type": "ClearObstacles",
+      "kind": "Stone",
+      "count": 3
+    },
+    {
+      "type": "ReachScore",
+      "score": 1200
+    }
+  ],
+  "obstacles": [
+    {
+      "kind": "Stone",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "kind": "Stone",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "kind": "Stone",
+      "column": 3,
+      "row": 0
+    }
+  ],
+  "boosters": {},
+  "stars": [
+    40,
+    32,
+    24
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": 74,
+  "difficulty": "Easy",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 40,
+  "seed": 2074,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 15,
+      "4": 25,
+      "8": 25,
+      "16": 20,
+      "32": 10,
+      "64": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "ReachScore",
+      "score": 1600
+    }
+  ],
+  "obstacles": [],
+  "boosters": {},
+  "stars": [
+    40,
+    32,
+    24
+  ]
+}

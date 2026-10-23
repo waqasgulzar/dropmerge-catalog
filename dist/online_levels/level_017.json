@@ -1,0 +1,41 @@
+{
+  "id": 17,
+  "difficulty": "Easy",
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 32,
+  "seed": 1017,
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 40,
+      "4": 40,
+      "8": 20
+    }
+  },
+  "goals": [
+    {
+      "type": "ClearObstacles",
+      "kind": "Stone",
+      "count": 2
+    }
+  ],
+  "obstacles": [
+    {
+      "kind": "Stone",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "kind": "Stone",
+      "column": 3,
+      "row": 0
+    }
+  ],
+  "boosters": {},
+  "stars": [
+    32,
+    25,
+    18
+  ]
+}
