@@ -2,7 +2,7 @@
   "id": 87,
   "columns": 5,
   "rows": 7,
-  "moveLimit": 45,
+  "moveLimit": 46,
   "seed": 689966,
   "difficulty": "Easy",
   "queue": {
@@ -24,11 +24,18 @@
       "moves": null
     }
   ],
-  "obstacles": [],
+  "obstacles": [
+    {
+      "kind": "Stone",
+      "column": 2,
+      "row": 0,
+      "value": null
+    }
+  ],
   "boosters": {},
   "stars": [
     20,
-    31,
-    45
+    32,
+    46
   ]
 }
