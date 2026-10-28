@@ -2,7 +2,7 @@
   "id": 308,
   "columns": 5,
   "rows": 7,
-  "moveLimit": 60,
+  "moveLimit": 34,
   "seed": 2440065,
   "difficulty": "Medium",
   "queue": {
@@ -16,19 +16,40 @@
   },
   "goals": [
     {
-      "type": "CreateTile",
-      "value": 512,
-      "count": 2,
+      "type": "ClearObstacles",
+      "value": null,
+      "count": 1,
       "score": null,
-      "kind": null,
+      "kind": "Ice",
+      "moves": null
+    },
+    {
+      "type": "ClearObstacles",
+      "value": null,
+      "count": 1,
+      "score": null,
+      "kind": "Stone",
       "moves": null
     }
   ],
-  "obstacles": [],
+  "obstacles": [
+    {
+      "kind": "Ice",
+      "column": 2,
+      "row": 0,
+      "value": 8
+    },
+    {
+      "kind": "Stone",
+      "column": 0,
+      "row": 0,
+      "value": null
+    }
+  ],
   "boosters": {},
   "stars": [
-    27,
-    42,
-    60
+    7,
+    11,
+    34
   ]
 }

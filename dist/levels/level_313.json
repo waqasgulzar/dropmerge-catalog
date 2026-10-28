@@ -2,7 +2,7 @@
   "id": 313,
   "columns": 5,
   "rows": 7,
-  "moveLimit": 62,
+  "moveLimit": 64,
   "seed": 2479660,
   "difficulty": "Medium",
   "queue": {
@@ -24,11 +24,24 @@
       "moves": null
     }
   ],
-  "obstacles": [],
+  "obstacles": [
+    {
+      "kind": "Ice",
+      "column": 1,
+      "row": 0,
+      "value": 8
+    },
+    {
+      "kind": "Ice",
+      "column": 3,
+      "row": 0,
+      "value": 8
+    }
+  ],
   "boosters": {},
   "stars": [
-    27,
-    43,
-    62
+    28,
+    44,
+    64
   ]
 }
