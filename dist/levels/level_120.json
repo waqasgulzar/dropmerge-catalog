@@ -2,7 +2,7 @@
   "id": 120,
   "columns": 6,
   "rows": 7,
-  "moveLimit": 60,
+  "moveLimit": 68,
   "seed": 951293,
   "difficulty": "SuperHard",
   "queue": {
@@ -22,6 +22,14 @@
       "score": null,
       "kind": null,
       "moves": null
+    },
+    {
+      "type": "ClearObstacles",
+      "value": null,
+      "count": 2,
+      "score": null,
+      "kind": "Ice",
+      "moves": null
     }
   ],
   "obstacles": [
@@ -29,19 +37,31 @@
       "kind": "Ice",
       "column": 0,
       "row": 0,
-      "value": null
+      "value": 4
     },
     {
       "kind": "Ice",
-      "column": 3,
+      "column": 1,
       "row": 0,
-      "value": null
+      "value": 8
+    },
+    {
+      "kind": "Ice",
+      "column": 4,
+      "row": 0,
+      "value": 4
     },
     {
       "kind": "Ice",
       "column": 5,
       "row": 0,
-      "value": null
+      "value": 8
+    },
+    {
+      "kind": "Ice",
+      "column": 3,
+      "row": 0,
+      "value": 4
     }
   ],
   "boosters": {
@@ -49,8 +69,8 @@
     "bomb": 1
   },
   "stars": [
-    27,
-    42,
-    60
+    30,
+    47,
+    68
   ]
 }

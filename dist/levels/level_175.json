@@ -2,7 +2,7 @@
   "id": 175,
   "columns": 5,
   "rows": 7,
-  "moveLimit": 54,
+  "moveLimit": 59,
   "seed": 1386838,
   "difficulty": "Easy",
   "queue": {
@@ -22,13 +22,28 @@
       "score": null,
       "kind": null,
       "moves": null
+    },
+    {
+      "type": "ClearObstacles",
+      "value": null,
+      "count": 1,
+      "score": null,
+      "kind": "Stone",
+      "moves": null
     }
   ],
-  "obstacles": [],
+  "obstacles": [
+    {
+      "kind": "Stone",
+      "column": 2,
+      "row": 0,
+      "value": null
+    }
+  ],
   "boosters": {},
   "stars": [
-    24,
-    37,
-    54
+    26,
+    41,
+    59
   ]
 }

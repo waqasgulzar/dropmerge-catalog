@@ -2,7 +2,7 @@
   "id": 114,
   "columns": 5,
   "rows": 7,
-  "moveLimit": 48,
+  "moveLimit": 56,
   "seed": 903779,
   "difficulty": "Easy",
   "queue": {
@@ -18,7 +18,7 @@
     {
       "type": "CreateTile",
       "value": 256,
-      "count": 1,
+      "count": 2,
       "score": null,
       "kind": null,
       "moves": null
@@ -27,8 +27,8 @@
   "obstacles": [],
   "boosters": {},
   "stars": [
-    21,
-    33,
-    48
+    25,
+    39,
+    56
   ]
 }
