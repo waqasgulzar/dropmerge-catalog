@@ -11,7 +11,7 @@
       "id": 301,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 58,
+      "moveLimit": 60,
       "seed": 2384632,
       "difficulty": "Easiest",
       "queue": {
@@ -36,16 +36,16 @@
       "obstacles": [],
       "boosters": {},
       "stars": [
-        26,
-        40,
-        58
+        27,
+        42,
+        60
       ]
     },
     {
       "id": 302,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 54,
+      "moveLimit": 60,
       "seed": 2392551,
       "difficulty": "Easy",
       "queue": {
@@ -70,16 +70,16 @@
       "obstacles": [],
       "boosters": {},
       "stars": [
-        24,
-        37,
-        54
+        27,
+        42,
+        60
       ]
     },
     {
       "id": 303,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 54,
+      "moveLimit": 56,
       "seed": 2400470,
       "difficulty": "Easy",
       "queue": {
@@ -101,19 +101,26 @@
           "moves": null
         }
       ],
-      "obstacles": [],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 2,
+          "row": 0,
+          "value": 8
+        }
+      ],
       "boosters": {},
       "stars": [
-        24,
-        37,
-        54
+        25,
+        39,
+        56
       ]
     },
     {
       "id": 304,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 54,
+      "moveLimit": 56,
       "seed": 2408389,
       "difficulty": "Easy",
       "queue": {
@@ -138,16 +145,16 @@
       "obstacles": [],
       "boosters": {},
       "stars": [
-        24,
-        37,
-        54
+        25,
+        39,
+        56
       ]
     },
     {
       "id": 305,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 54,
+      "moveLimit": 59,
       "seed": 2416308,
       "difficulty": "Easy",
       "queue": {
@@ -167,21 +174,42 @@
           "score": null,
           "kind": null,
           "moves": null
+        },
+        {
+          "type": "ClearObstacles",
+          "value": null,
+          "count": 1,
+          "score": null,
+          "kind": "Ice",
+          "moves": null
         }
       ],
-      "obstacles": [],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 1,
+          "row": 0,
+          "value": 8
+        },
+        {
+          "kind": "Ice",
+          "column": 3,
+          "row": 0,
+          "value": 8
+        }
+      ],
       "boosters": {},
       "stars": [
-        24,
-        37,
-        54
+        26,
+        41,
+        59
       ]
     },
     {
       "id": 306,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 54,
+      "moveLimit": 56,
       "seed": 2424227,
       "difficulty": "Medium",
       "queue": {
@@ -206,16 +234,16 @@
       "obstacles": [],
       "boosters": {},
       "stars": [
-        24,
-        37,
-        54
+        25,
+        39,
+        56
       ]
     },
     {
       "id": 307,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 54,
+      "moveLimit": 56,
       "seed": 2432146,
       "difficulty": "Easy",
       "queue": {
@@ -242,21 +270,21 @@
           "kind": "Ice",
           "column": 2,
           "row": 0,
-          "value": null
+          "value": 8
         }
       ],
       "boosters": {},
       "stars": [
-        24,
-        37,
-        54
+        25,
+        39,
+        56
       ]
     },
     {
       "id": 308,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 60,
+      "moveLimit": 34,
       "seed": 2440065,
       "difficulty": "Medium",
       "queue": {
@@ -270,27 +298,48 @@
       },
       "goals": [
         {
-          "type": "CreateTile",
-          "value": 512,
-          "count": 2,
+          "type": "ClearObstacles",
+          "value": null,
+          "count": 1,
           "score": null,
-          "kind": null,
+          "kind": "Ice",
+          "moves": null
+        },
+        {
+          "type": "ClearObstacles",
+          "value": null,
+          "count": 1,
+          "score": null,
+          "kind": "Stone",
           "moves": null
         }
       ],
-      "obstacles": [],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 2,
+          "row": 0,
+          "value": 8
+        },
+        {
+          "kind": "Stone",
+          "column": 0,
+          "row": 0,
+          "value": null
+        }
+      ],
       "boosters": {},
       "stars": [
-        27,
-        42,
-        60
+        7,
+        11,
+        34
       ]
     },
     {
       "id": 309,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 54,
+      "moveLimit": 56,
       "seed": 2447984,
       "difficulty": "Medium",
       "queue": {
@@ -315,16 +364,16 @@
       "obstacles": [],
       "boosters": {},
       "stars": [
-        24,
-        37,
-        54
+        25,
+        39,
+        56
       ]
     },
     {
       "id": 310,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 70,
       "seed": 2455903,
       "difficulty": "Hard",
       "queue": {
@@ -344,36 +393,50 @@
           "score": null,
           "kind": null,
           "moves": null
+        },
+        {
+          "type": "ClearObstacles",
+          "value": null,
+          "count": 2,
+          "score": null,
+          "kind": "Ice",
+          "moves": null
         }
       ],
       "obstacles": [
         {
           "kind": "Ice",
-          "column": 1,
+          "column": 0,
           "row": 0,
-          "value": null
+          "value": 8
         },
         {
           "kind": "Ice",
-          "column": 3,
+          "column": 2,
           "row": 0,
-          "value": null
+          "value": 16
+        },
+        {
+          "kind": "Ice",
+          "column": 4,
+          "row": 0,
+          "value": 8
         }
       ],
       "boosters": {
         "hammer": 1
       },
       "stars": [
-        27,
-        43,
-        62
+        31,
+        49,
+        70
       ]
     },
     {
       "id": 311,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 64,
       "seed": 2463822,
       "difficulty": "Easy",
       "queue": {
@@ -398,16 +461,16 @@
       "obstacles": [],
       "boosters": {},
       "stars": [
-        27,
-        43,
-        62
+        28,
+        44,
+        64
       ]
     },
     {
       "id": 312,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 64,
       "seed": 2471741,
       "difficulty": "Easy",
       "queue": {
@@ -429,19 +492,26 @@
           "moves": null
         }
       ],
-      "obstacles": [],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 2,
+          "row": 0,
+          "value": 8
+        }
+      ],
       "boosters": {},
       "stars": [
-        27,
-        43,
-        62
+        28,
+        44,
+        64
       ]
     },
     {
       "id": 313,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 64,
       "seed": 2479660,
       "difficulty": "Medium",
       "queue": {
@@ -463,19 +533,32 @@
           "moves": null
         }
       ],
-      "obstacles": [],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 1,
+          "row": 0,
+          "value": 8
+        },
+        {
+          "kind": "Ice",
+          "column": 3,
+          "row": 0,
+          "value": 8
+        }
+      ],
       "boosters": {},
       "stars": [
-        27,
-        43,
-        62
+        28,
+        44,
+        64
       ]
     },
     {
       "id": 314,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 64,
       "seed": 2487579,
       "difficulty": "Easy",
       "queue": {
@@ -497,26 +580,19 @@
           "moves": null
         }
       ],
-      "obstacles": [
-        {
-          "kind": "Ice",
-          "column": 2,
-          "row": 0,
-          "value": null
-        }
-      ],
+      "obstacles": [],
       "boosters": {},
       "stars": [
-        27,
-        43,
-        62
+        28,
+        44,
+        64
       ]
     },
     {
       "id": 315,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 67,
       "seed": 2495498,
       "difficulty": "Easy",
       "queue": {
@@ -536,21 +612,36 @@
           "score": null,
           "kind": null,
           "moves": null
+        },
+        {
+          "type": "ClearObstacles",
+          "value": null,
+          "count": 1,
+          "score": null,
+          "kind": "Ice",
+          "moves": null
         }
       ],
-      "obstacles": [],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 2,
+          "row": 0,
+          "value": 8
+        }
+      ],
       "boosters": {},
       "stars": [
-        27,
-        43,
-        62
+        30,
+        46,
+        67
       ]
     },
     {
       "id": 316,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 34,
       "seed": 2503417,
       "difficulty": "Medium",
       "queue": {
@@ -564,27 +655,48 @@
       },
       "goals": [
         {
-          "type": "CreateTile",
-          "value": 1024,
+          "type": "ClearObstacles",
+          "value": null,
           "count": 1,
           "score": null,
-          "kind": null,
+          "kind": "Ice",
+          "moves": null
+        },
+        {
+          "type": "ClearObstacles",
+          "value": null,
+          "count": 1,
+          "score": null,
+          "kind": "Stone",
           "moves": null
         }
       ],
-      "obstacles": [],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 2,
+          "row": 0,
+          "value": 8
+        },
+        {
+          "kind": "Stone",
+          "column": 0,
+          "row": 0,
+          "value": null
+        }
+      ],
       "boosters": {},
       "stars": [
-        27,
-        43,
-        62
+        6,
+        10,
+        34
       ]
     },
     {
       "id": 317,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 64,
       "seed": 2511336,
       "difficulty": "Easy",
       "queue": {
@@ -606,55 +718,34 @@
           "moves": null
         }
       ],
-      "obstacles": [],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 1,
+          "row": 0,
+          "value": 8
+        },
+        {
+          "kind": "Ice",
+          "column": 3,
+          "row": 0,
+          "value": 8
+        }
+      ],
       "boosters": {},
       "stars": [
-        27,
-        43,
-        62
+        28,
+        44,
+        64
       ]
     },
     {
       "id": 318,
       "columns": 5,
       "rows": 7,
-      "moveLimit": 62,
+      "moveLimit": 64,
       "seed": 2519255,
       "difficulty": "Medium",
-      "queue": {
-        "mode": "weighted",
-        "values": {
-          "4": 30,
-          "8": 35,
-          "16": 25,
-          "32": 10
-        }
-      },
-      "goals": [
-        {
-          "type": "CreateTile",
-          "value": 1024,
-          "count": 1,
-          "score": null,
-          "kind": null,
-          "moves": null
-        }
-      ],
-      "obstacles": [],
-      "boosters": {},
-      "stars": [
-        27,
-        43,
-        62
-      ]
-    },
-    {
-      "id": 319,
-      "columns": 5,
-      "rows": 7,
-      "moveLimit": 62,
-      "seed": 2527174,
-      "difficulty": "Hard",
       "queue": {
         "mode": "weighted",
         "values": {
@@ -679,23 +770,84 @@
           "kind": "Ice",
           "column": 2,
           "row": 0,
-          "value": null
+          "value": 8
+        }
+      ],
+      "boosters": {},
+      "stars": [
+        28,
+        44,
+        64
+      ]
+    },
+    {
+      "id": 319,
+      "columns": 5,
+      "rows": 7,
+      "moveLimit": 70,
+      "seed": 2527174,
+      "difficulty": "Hard",
+      "queue": {
+        "mode": "weighted",
+        "values": {
+          "4": 30,
+          "8": 35,
+          "16": 25,
+          "32": 10
+        }
+      },
+      "goals": [
+        {
+          "type": "CreateTile",
+          "value": 1024,
+          "count": 1,
+          "score": null,
+          "kind": null,
+          "moves": null
+        },
+        {
+          "type": "ClearObstacles",
+          "value": null,
+          "count": 2,
+          "score": null,
+          "kind": "Ice",
+          "moves": null
+        }
+      ],
+      "obstacles": [
+        {
+          "kind": "Ice",
+          "column": 0,
+          "row": 0,
+          "value": 8
+        },
+        {
+          "kind": "Ice",
+          "column": 2,
+          "row": 0,
+          "value": 16
+        },
+        {
+          "kind": "Ice",
+          "column": 4,
+          "row": 0,
+          "value": 8
         }
       ],
       "boosters": {
         "undo": 1
       },
       "stars": [
-        27,
-        43,
-        62
+        31,
+        49,
+        70
       ]
     },
     {
       "id": 320,
       "columns": 6,
       "rows": 7,
-      "moveLimit": 68,
+      "moveLimit": 76,
       "seed": 2535093,
       "difficulty": "SuperHard",
       "queue": {
@@ -715,6 +867,14 @@
           "score": null,
           "kind": null,
           "moves": null
+        },
+        {
+          "type": "ClearObstacles",
+          "value": null,
+          "count": 2,
+          "score": null,
+          "kind": "Ice",
+          "moves": null
         }
       ],
       "obstacles": [
@@ -722,19 +882,31 @@
           "kind": "Ice",
           "column": 0,
           "row": 0,
+          "value": 8
+        },
+        {
+          "kind": "Stone",
+          "column": 1,
+          "row": 0,
+          "value": null
+        },
+        {
+          "kind": "Ice",
+          "column": 4,
+          "row": 0,
+          "value": 8
+        },
+        {
+          "kind": "Stone",
+          "column": 5,
+          "row": 0,
           "value": null
         },
         {
           "kind": "Ice",
           "column": 3,
           "row": 0,
-          "value": null
-        },
-        {
-          "kind": "Ice",
-          "column": 5,
-          "row": 0,
-          "value": null
+          "value": 8
         }
       ],
       "boosters": {
@@ -742,9 +914,9 @@
         "bomb": 1
       },
       "stars": [
-        30,
-        47,
-        68
+        34,
+        53,
+        76
       ]
     }
   ]
