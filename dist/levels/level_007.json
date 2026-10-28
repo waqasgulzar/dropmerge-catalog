@@ -1,0 +1,33 @@
+{
+  "id": 7,
+  "columns": 5,
+  "rows": 5,
+  "moveLimit": 28,
+  "seed": 1007,
+  "difficulty": "Easy",
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 45,
+      "4": 40,
+      "8": 15
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 32,
+      "count": 1,
+      "score": null,
+      "kind": null,
+      "moves": null
+    }
+  ],
+  "obstacles": [],
+  "boosters": {},
+  "stars": [
+    28,
+    21,
+    14
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 54,
+  "columns": 4,
+  "rows": 6,
+  "moveLimit": 36,
+  "seed": 1054,
+  "difficulty": "Easy",
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 25,
+      "4": 30,
+      "8": 25,
+      "16": 15,
+      "32": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "ReachScore",
+      "value": null,
+      "count": null,
+      "score": 1300,
+      "kind": null,
+      "moves": null
+    }
+  ],
+  "obstacles": [],
+  "boosters": {},
+  "stars": [
+    36,
+    27,
+    18
+  ]
+}
