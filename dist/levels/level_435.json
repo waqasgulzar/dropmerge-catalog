@@ -2,7 +2,7 @@
   "id": 435,
   "columns": 5,
   "rows": 7,
-  "moveLimit": 62,
+  "moveLimit": 67,
   "seed": 3445778,
   "difficulty": "Easy",
   "queue": {
@@ -22,13 +22,28 @@
       "score": null,
       "kind": null,
       "moves": null
+    },
+    {
+      "type": "ClearObstacles",
+      "value": null,
+      "count": 1,
+      "score": null,
+      "kind": "Ice",
+      "moves": null
     }
   ],
-  "obstacles": [],
+  "obstacles": [
+    {
+      "kind": "Ice",
+      "column": 2,
+      "row": 0,
+      "value": 16
+    }
+  ],
   "boosters": {},
   "stars": [
-    27,
-    43,
-    62
+    30,
+    46,
+    67
   ]
 }

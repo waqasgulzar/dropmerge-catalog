@@ -2,7 +2,7 @@
   "id": 491,
   "columns": 5,
   "rows": 7,
-  "moveLimit": 62,
+  "moveLimit": 64,
   "seed": 3889242,
   "difficulty": "Easy",
   "queue": {
@@ -27,8 +27,8 @@
   "obstacles": [],
   "boosters": {},
   "stars": [
-    27,
-    43,
-    62
+    28,
+    44,
+    64
   ]
 }

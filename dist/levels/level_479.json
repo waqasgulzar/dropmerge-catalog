@@ -2,7 +2,7 @@
   "id": 479,
   "columns": 5,
   "rows": 7,
-  "moveLimit": 62,
+  "moveLimit": 70,
   "seed": 3794214,
   "difficulty": "Hard",
   "queue": {
@@ -22,22 +22,42 @@
       "score": null,
       "kind": null,
       "moves": null
+    },
+    {
+      "type": "ClearObstacles",
+      "value": null,
+      "count": 2,
+      "score": null,
+      "kind": "Ice",
+      "moves": null
     }
   ],
   "obstacles": [
     {
       "kind": "Ice",
+      "column": 0,
+      "row": 0,
+      "value": 16
+    },
+    {
+      "kind": "Ice",
       "column": 2,
       "row": 0,
-      "value": null
+      "value": 32
+    },
+    {
+      "kind": "Ice",
+      "column": 4,
+      "row": 0,
+      "value": 16
     }
   ],
   "boosters": {
     "undo": 1
   },
   "stars": [
-    27,
-    43,
-    62
+    31,
+    49,
+    70
   ]
 }
