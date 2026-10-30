@@ -14,10 +14,10 @@
       padding: 24px;
     }
     .container {
-      max-width: 760px;
+      max-width: 800px;
       margin: 0 auto;
       background: #1E293B;
-      padding: 32px;
+      padding: 36px;
       border-radius: 16px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
@@ -33,9 +33,21 @@
       border-bottom: 1px solid #334155;
       padding-bottom: 6px;
     }
+    h3 {
+      color: #38BDF8;
+      font-size: 16px;
+      margin-top: 18px;
+      margin-bottom: 6px;
+    }
     p, li {
       color: #94A3B8;
       font-size: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
     }
     strong {
       color: #F8FAFC;
@@ -50,8 +62,22 @@
       font-size: 12px;
       margin-bottom: 16px;
     }
+    .callout {
+      background: #111E33;
+      border-left: 4px solid #00ADB5;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 18px 0;
+    }
+    .callout p {
+      margin: 0;
+      color: #CBD5E1;
+      font-size: 14px;
+    }
     footer {
-      margin-top: 32px;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #334155;
       text-align: center;
       font-size: 13px;
       color: #64748B;
@@ -62,32 +88,74 @@
   <div class="container">
     <span class="badge">Official Policy</span>
     <h1>Privacy Policy for Drop Merge</h1>
-    <p>Last updated: October 24, 2026</p>
+    <p>Last updated: <strong>October 31, 2026</strong></p>
 
-    <p>Welcome to <strong>Drop Merge</strong>! This privacy policy explains how our mobile game collects, uses, and protects information when you play our game on Android.</p>
+    <p>Welcome to <strong>Drop Merge</strong>! We are committed to protecting your privacy and delivering a transparent, safe, and enjoyable casual puzzle experience. This Privacy Policy details how data is handled when you download, install, or play Drop Merge on Android devices.</p>
 
-    <h2>1. Information We Collect</h2>
-    <p>Drop Merge is designed to respect your privacy. We do not require account registration, and we do not collect personal identifying information (such as your real name, email address, physical address, or phone number).</p>
+    <h2>1. Information We Collect and Process</h2>
+    <p>Drop Merge does not require a registration form, password, or sensitive personal data such as your real name, address, contacts, or phone number.</p>
+
+    <h3>A. Gameplay & Progress Data</h3>
     <ul>
-      <li><strong>Local Gameplay Data:</strong> High scores, level completion progress, earned stars, unlocked trophies, and booster inventory are saved locally on your device using secure SQLite storage.</li>
-      <li><strong>Device & Diagnostics:</strong> Anonymous diagnostic telemetry and crash logs may be processed to identify game performance issues and improve stability.</li>
+      <li><strong>Local Storage:</strong> Your current level progress, high scores, stars, booster inventory (Hammers, Bombs, Undos), coins balance, and achievements are stored locally on your device via encrypted SQLite database storage.</li>
+      <li><strong>Cloud Backup (Optional):</strong> If you choose to enable cloud save or sign into Google Play Games, your monotonic game progress (completed levels, stars, coins, high score) is securely synchronized to Firebase Firestore so you can restore your journey across devices.</li>
     </ul>
 
-    <h2>2. Advertising & Monetization</h2>
-    <p>Drop Merge displays non-intrusive advertisements provided by <strong>Google AdMob</strong>. These advertising services may collect and process anonymous advertising identifiers (such as Google Advertising ID) in compliance with Google Play Store policies and GDPR/CCPA guidelines.</p>
-    <p>Players can opt out of personalized ads or remove banner/interstitial advertisements via the in-game Shop option ("Remove Ads").</p>
+    <h3>B. Device & Diagnostic Telemetry</h3>
+    <ul>
+      <li><strong>Anonymous Analytics:</strong> We collect non-personally identifiable diagnostic events (such as level completion/fail rates, booster usage frequency, and frame performance) to balance level difficulty and optimize 60 FPS gameplay.</li>
+      <li><strong>Crash Reports:</strong> In the rare event of a technical crash, anonymous technical stack traces and hardware identifiers (device model, Android OS version) are processed strictly to troubleshoot and fix bugs.</li>
+    </ul>
 
-    <h2>3. In-App Purchases</h2>
-    <p>All in-app purchases (such as booster packs and Remove Ads) are processed securely through the <strong>Google Play In-App Billing</strong> system. We never receive or store your credit card or financial information.</p>
+    <h2>2. Third-Party Services & Integrations</h2>
+    <p>To provide core game features, advertising, and secure purchases, Drop Merge integrates reputable industry-standard SDKs from Google:</p>
 
-    <h2>4. Children's Privacy</h2>
-    <p>Drop Merge is a family-friendly casual puzzle game. We do not knowingly collect personal information from children under the age of 13.</p>
+    <ul>
+      <li>
+        <strong>Google AdMob:</strong> We display banner, interstitial, and rewarded video ads. AdMob may process your device's Google Advertising ID and coarse IP-derived geography to deliver relevant ads and detect fraud. We integrate Google's User Messaging Platform (UMP) to obtain GDPR and privacy consent in applicable regions (such as the EEA and UK).
+      </li>
+      <li>
+        <strong>Google Play In-App Billing:</strong> All store transactions (purchasing coins, booster packs, or the permanent "Remove Ads" entitlement) are handled entirely through Google Play's secure payment infrastructure. We never collect, process, or store your credit card or financial information.
+      </li>
+      <li>
+        <strong>Google Play Games Services:</strong> Used for optional GamerTag display, leaderboards (Global High Score, Stars, Daily Challenges), and cloud achievement syncing.
+      </li>
+      <li>
+        <strong>Firebase Firestore:</strong> Provides lightweight, serverless cloud save backup for game progress tied to your authenticated Google Play Games identity.
+      </li>
+    </ul>
 
-    <h2>5. Contact Us</h2>
-    <p>If you have any questions or feedback regarding this Privacy Policy, you can reach out via our GitHub repository or developer contact page.</p>
+    <h2>3. Advertising Choices & Ad Removal</h2>
+    <p>We respect your preferences regarding advertisements:</p>
+    <ul>
+      <li><strong>Remove Ads:</strong> Players can permanently remove all interstitial and banner advertisements at any time via the in-game Shop ("Remove Ads"). Rewarded video ads remain completely optional for extra moves or bonuses.</li>
+      <li><strong>Consent Management:</strong> Players in the EEA/UK can review, manage, or revoke their advertising consent choices at any time from the in-game Settings screen.</li>
+    </ul>
+
+    <h2>4. Data Retention and Player Deletion Rights</h2>
+    <div class="callout">
+      <p><strong>Your Right to Delete Data:</strong> You have full control over your cloud data. At any time, you can permanently delete your synced cloud progress by tapping <em>"Delete Cloud Save"</em> in the game's Settings screen. You can also reset local data by clearing the app cache/storage in your Android device settings or by uninstalling the application.</p>
+    </div>
+
+    <h2>5. Children's Privacy (COPPA Compliance)</h2>
+    <p>Drop Merge is designed as a family-friendly puzzle game for general audiences. We do not knowingly collect or solicit personal information from children under the age of 13. If you believe that a child has provided us with personal information without parental consent, please contact us so we can immediately delete such data.</p>
+
+    <h2>6. Security</h2>
+    <p>We implement standard security measures, HTTPS/TLS data transfer protocols, and strict Firebase security rules to protect your game progression against unauthorized access, loss, or alteration.</p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy periodically to reflect new features or platform policy changes. The "Last updated" date at the top will indicate the latest revision.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions, suggestions, or data deletion inquiries regarding this Privacy Policy, please contact our support team:</p>
+    <ul>
+      <li><strong>Developer Contact:</strong> <a href="mailto:writetowaqasgulzar@gmail.com" style="color: #38BDF8;">writetowaqasgulzar@gmail.com</a></li>
+      <li><strong>App Name:</strong> Drop Merge</li>
+      
+    </ul>
 
     <footer>
-      &copy; 2026 Drop Merge Game. All rights reserved.
+      &copy; 2026 Drop Merge. All rights reserved.
     </footer>
   </div>
 </body>
