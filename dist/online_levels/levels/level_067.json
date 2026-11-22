@@ -1,0 +1,56 @@
+{
+  "id": 67,
+  "columns": 4,
+  "rows": 6,
+  "moveLimit": 38,
+  "seed": 1067,
+  "difficulty": "Medium",
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 20,
+      "4": 30,
+      "8": 25,
+      "16": 20,
+      "32": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 128,
+      "count": 1,
+      "score": null,
+      "kind": null,
+      "moves": null
+    },
+    {
+      "type": "ClearObstacles",
+      "value": null,
+      "count": 2,
+      "score": null,
+      "kind": "Stone",
+      "moves": null
+    }
+  ],
+  "obstacles": [
+    {
+      "kind": "Stone",
+      "column": 0,
+      "row": 0,
+      "value": null
+    },
+    {
+      "kind": "Stone",
+      "column": 3,
+      "row": 0,
+      "value": null
+    }
+  ],
+  "boosters": {},
+  "stars": [
+    38,
+    28,
+    19
+  ]
+}

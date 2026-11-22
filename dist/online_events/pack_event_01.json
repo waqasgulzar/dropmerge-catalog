@@ -1,0 +1,241 @@
+{
+  "id": "pack_event_01",
+  "name": "Neon Rush",
+  "revision": 1,
+  "themeColor": "#FF2A85",
+  "secondaryColor": "#00F5D4",
+  "icon": "event_trophy",
+  "subtitle": "Clear 5 stages for 250 Coins \u002B 2 Bombs!",
+  "levels": [
+    {
+      "id": 910011,
+      "columns": 5,
+      "rows": 7,
+      "moveLimit": 58,
+      "seed": 20261101,
+      "difficulty": "Easy",
+      "queue": {
+        "mode": "weighted",
+        "values": {
+          "2": 40,
+          "4": 35,
+          "8": 20,
+          "16": 5
+        }
+      },
+      "goals": [
+        {
+          "type": "CreateTile",
+          "value": 256,
+          "count": 1,
+          "score": null,
+          "kind": null,
+          "moves": null
+        },
+        {
+          "type": "ReachScore",
+          "value": null,
+          "count": null,
+          "score": 1500,
+          "kind": null,
+          "moves": null
+        }
+      ],
+      "obstacles": [],
+      "boosters": {
+        "hammer": 1,
+        "bomb": 1,
+        "undo": 1
+      },
+      "stars": [
+        26,
+        40,
+        58
+      ]
+    },
+    {
+      "id": 910012,
+      "columns": 5,
+      "rows": 7,
+      "moveLimit": 56,
+      "seed": 20261102,
+      "difficulty": "Medium",
+      "queue": {
+        "mode": "weighted",
+        "values": {
+          "2": 40,
+          "4": 35,
+          "8": 20,
+          "16": 5
+        }
+      },
+      "goals": [
+        {
+          "type": "CreateTile",
+          "value": 256,
+          "count": 1,
+          "score": null,
+          "kind": null,
+          "moves": null
+        },
+        {
+          "type": "ReachScore",
+          "value": null,
+          "count": null,
+          "score": 3000,
+          "kind": null,
+          "moves": null
+        }
+      ],
+      "obstacles": [],
+      "boosters": {
+        "hammer": 1,
+        "bomb": 1,
+        "undo": 1
+      },
+      "stars": [
+        25,
+        39,
+        56
+      ]
+    },
+    {
+      "id": 910013,
+      "columns": 6,
+      "rows": 7,
+      "moveLimit": 55,
+      "seed": 20261103,
+      "difficulty": "Medium",
+      "queue": {
+        "mode": "weighted",
+        "values": {
+          "2": 40,
+          "4": 35,
+          "8": 20,
+          "16": 5
+        }
+      },
+      "goals": [
+        {
+          "type": "CreateTile",
+          "value": 512,
+          "count": 1,
+          "score": null,
+          "kind": null,
+          "moves": null
+        },
+        {
+          "type": "ReachScore",
+          "value": null,
+          "count": null,
+          "score": 4500,
+          "kind": null,
+          "moves": null
+        }
+      ],
+      "obstacles": [],
+      "boosters": {
+        "hammer": 1,
+        "bomb": 1,
+        "undo": 1
+      },
+      "stars": [
+        24,
+        38,
+        55
+      ]
+    },
+    {
+      "id": 910014,
+      "columns": 6,
+      "rows": 7,
+      "moveLimit": 54,
+      "seed": 20261104,
+      "difficulty": "Hard",
+      "queue": {
+        "mode": "weighted",
+        "values": {
+          "2": 40,
+          "4": 35,
+          "8": 20,
+          "16": 5
+        }
+      },
+      "goals": [
+        {
+          "type": "CreateTile",
+          "value": 512,
+          "count": 1,
+          "score": null,
+          "kind": null,
+          "moves": null
+        },
+        {
+          "type": "ReachScore",
+          "value": null,
+          "count": null,
+          "score": 6000,
+          "kind": null,
+          "moves": null
+        }
+      ],
+      "obstacles": [],
+      "boosters": {
+        "hammer": 1,
+        "bomb": 1,
+        "undo": 1
+      },
+      "stars": [
+        24,
+        37,
+        54
+      ]
+    },
+    {
+      "id": 910015,
+      "columns": 6,
+      "rows": 8,
+      "moveLimit": 56,
+      "seed": 20261105,
+      "difficulty": "Hard",
+      "queue": {
+        "mode": "weighted",
+        "values": {
+          "2": 40,
+          "4": 35,
+          "8": 20,
+          "16": 5
+        }
+      },
+      "goals": [
+        {
+          "type": "CreateTile",
+          "value": 1024,
+          "count": 1,
+          "score": null,
+          "kind": null,
+          "moves": null
+        },
+        {
+          "type": "ReachScore",
+          "value": null,
+          "count": null,
+          "score": 12000,
+          "kind": null,
+          "moves": null
+        }
+      ],
+      "obstacles": [],
+      "boosters": {
+        "hammer": 1,
+        "bomb": 1,
+        "undo": 1
+      },
+      "stars": [
+        25,
+        39,
+        56
+      ]
+    }
+  ]
+}

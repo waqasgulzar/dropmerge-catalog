@@ -1,0 +1,550 @@
+{
+  "packId": "pack_daily_challenge",
+  "revision": 1,
+  "totalDays": 60,
+  "publishedAtUtc": "2026-10-29T15:01:57.7268836Z",
+  "packSha256": "15db38b155d06a1ed369d3381714bf91a7a2e7d9df89e80729f09b449c6de6dc",
+  "packUrl": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_daily_challenge.json",
+  "days": [
+    {
+      "dayOfYear": 1,
+      "levelId": 900001,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 2,
+      "levelId": 900002,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 3,
+      "levelId": 900003,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 4,
+      "levelId": 900004,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 5,
+      "levelId": 900005,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 6,
+      "levelId": 900006,
+      "difficulty": "Hard",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 7,
+      "levelId": 900007,
+      "difficulty": "Hard",
+      "board": "6x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 8,
+      "levelId": 900008,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 9,
+      "levelId": 900009,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 10,
+      "levelId": 900010,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 11,
+      "levelId": 900011,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 12,
+      "levelId": 900012,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 13,
+      "levelId": 900013,
+      "difficulty": "Hard",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 14,
+      "levelId": 900014,
+      "difficulty": "Hard",
+      "board": "6x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 15,
+      "levelId": 900015,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 16,
+      "levelId": 900016,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 17,
+      "levelId": 900017,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 18,
+      "levelId": 900018,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 19,
+      "levelId": 900019,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 20,
+      "levelId": 900020,
+      "difficulty": "Hard",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 21,
+      "levelId": 900021,
+      "difficulty": "Hard",
+      "board": "6x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 22,
+      "levelId": 900022,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 23,
+      "levelId": 900023,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 24,
+      "levelId": 900024,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 25,
+      "levelId": 900025,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 26,
+      "levelId": 900026,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 27,
+      "levelId": 900027,
+      "difficulty": "Hard",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 28,
+      "levelId": 900028,
+      "difficulty": "Hard",
+      "board": "6x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 29,
+      "levelId": 900029,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 30,
+      "levelId": 900030,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 31,
+      "levelId": 900031,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 32,
+      "levelId": 900032,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 33,
+      "levelId": 900033,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 34,
+      "levelId": 900034,
+      "difficulty": "Hard",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 35,
+      "levelId": 900035,
+      "difficulty": "Hard",
+      "board": "6x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 36,
+      "levelId": 900036,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 37,
+      "levelId": 900037,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 38,
+      "levelId": 900038,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 39,
+      "levelId": 900039,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 40,
+      "levelId": 900040,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 41,
+      "levelId": 900041,
+      "difficulty": "Hard",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 42,
+      "levelId": 900042,
+      "difficulty": "Hard",
+      "board": "6x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 43,
+      "levelId": 900043,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 44,
+      "levelId": 900044,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 45,
+      "levelId": 900045,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 46,
+      "levelId": 900046,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 47,
+      "levelId": 900047,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 48,
+      "levelId": 900048,
+      "difficulty": "Hard",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 49,
+      "levelId": 900049,
+      "difficulty": "Hard",
+      "board": "6x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 50,
+      "levelId": 900050,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 51,
+      "levelId": 900051,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 52,
+      "levelId": 900052,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 53,
+      "levelId": 900053,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 54,
+      "levelId": 900054,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 55,
+      "levelId": 900055,
+      "difficulty": "Hard",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 56,
+      "levelId": 900056,
+      "difficulty": "Hard",
+      "board": "6x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 57,
+      "levelId": 900057,
+      "difficulty": "Easy",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 58,
+      "levelId": 900058,
+      "difficulty": "Easy",
+      "board": "5x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    },
+    {
+      "dayOfYear": 59,
+      "levelId": 900059,
+      "difficulty": "Medium",
+      "board": "5x7",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 2
+    },
+    {
+      "dayOfYear": 60,
+      "levelId": 900060,
+      "difficulty": "Easy",
+      "board": "4x6",
+      "moveLimit": 56,
+      "goalsCount": 2,
+      "obstaclesCount": 0
+    }
+  ]
+}

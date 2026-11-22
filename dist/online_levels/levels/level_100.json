@@ -1,0 +1,56 @@
+{
+  "id": 100,
+  "columns": 6,
+  "rows": 7,
+  "moveLimit": 60,
+  "seed": 792913,
+  "difficulty": "SuperHard",
+  "queue": {
+    "mode": "weighted",
+    "values": {
+      "2": 35,
+      "4": 40,
+      "8": 20,
+      "16": 5
+    }
+  },
+  "goals": [
+    {
+      "type": "CreateTile",
+      "value": 512,
+      "count": 1,
+      "score": null,
+      "kind": null,
+      "moves": null
+    }
+  ],
+  "obstacles": [
+    {
+      "kind": "Stone",
+      "column": 0,
+      "row": 0,
+      "value": null
+    },
+    {
+      "kind": "Stone",
+      "column": 3,
+      "row": 0,
+      "value": null
+    },
+    {
+      "kind": "Stone",
+      "column": 5,
+      "row": 0,
+      "value": null
+    }
+  ],
+  "boosters": {
+    "hammer": 1,
+    "bomb": 1
+  },
+  "stars": [
+    27,
+    42,
+    60
+  ]
+}

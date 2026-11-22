@@ -1,0 +1,37 @@
+{
+  "id": 1,
+  "columns": 5,
+  "rows": 7,
+  "moveLimit": 25,
+  "seed": 1001,
+  "difficulty": "Easiest",
+  "queue": {
+    "mode": "fixed",
+    "values": [
+      2,
+      2,
+      4,
+      4,
+      8,
+      8,
+      16
+    ]
+  },
+  "goals": [
+    {
+      "type": "ReachScore",
+      "value": null,
+      "count": null,
+      "score": 50,
+      "kind": null,
+      "moves": null
+    }
+  ],
+  "obstacles": [],
+  "boosters": {},
+  "stars": [
+    25,
+    18,
+    12
+  ]
+}
