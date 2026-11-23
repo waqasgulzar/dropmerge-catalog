@@ -1,24 +1,24 @@
 {
   "id": 910115,
   "columns": 6,
-  "rows": 8,
-  "moveLimit": 58,
-  "seed": 20263118,
-  "difficulty": "SuperHard",
+  "rows": 7,
+  "moveLimit": 50,
+  "seed": 20262105,
+  "difficulty": "Medium",
   "queue": {
     "mode": "weighted",
     "values": {
-      "8": 20,
+      "8": 25,
       "16": 30,
       "32": 30,
-      "64": 20
+      "64": 15
     }
   },
   "goals": [
     {
       "type": "CreateTile",
-      "value": 512,
-      "count": 1,
+      "value": 128,
+      "count": 2,
       "score": null,
       "kind": null,
       "moves": null
@@ -31,8 +31,8 @@
     "undo": 2
   },
   "stars": [
-    31,
-    35,
-    58
+    15,
+    19,
+    50
   ]
 }

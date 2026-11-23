@@ -2,16 +2,16 @@
   "id": 910044,
   "columns": 6,
   "rows": 7,
-  "moveLimit": 52,
+  "moveLimit": 45,
   "seed": 20261404,
-  "difficulty": "Hard",
+  "difficulty": "Medium",
   "queue": {
     "mode": "weighted",
     "values": {
-      "4": 25,
-      "8": 35,
-      "16": 25,
-      "32": 15
+      "8": 30,
+      "16": 35,
+      "32": 25,
+      "64": 10
     }
   },
   "goals": [
@@ -19,7 +19,7 @@
       "type": "ReachScore",
       "value": null,
       "count": null,
-      "score": 2800,
+      "score": 1800,
       "kind": null,
       "moves": null
     }
@@ -27,12 +27,12 @@
   "obstacles": [],
   "boosters": {
     "hammer": 2,
-    "bomb": 1,
+    "bomb": 2,
     "undo": 2
   },
   "stars": [
-    29,
-    33,
-    52
+    21,
+    25,
+    45
   ]
 }

@@ -2,22 +2,22 @@
   "id": 910064,
   "columns": 6,
   "rows": 7,
-  "moveLimit": 52,
+  "moveLimit": 45,
   "seed": 20261604,
-  "difficulty": "Hard",
+  "difficulty": "Medium",
   "queue": {
     "mode": "weighted",
     "values": {
-      "4": 25,
-      "8": 35,
-      "16": 25,
-      "32": 15
+      "8": 30,
+      "16": 35,
+      "32": 25,
+      "64": 10
     }
   },
   "goals": [
     {
       "type": "CreateTile",
-      "value": 256,
+      "value": 128,
       "count": 1,
       "score": null,
       "kind": null,
@@ -34,12 +34,12 @@
   ],
   "boosters": {
     "hammer": 2,
-    "bomb": 1,
+    "bomb": 2,
     "undo": 2
   },
   "stars": [
-    31,
-    35,
-    52
+    9,
+    13,
+    45
   ]
 }
