@@ -1,7 +1,7 @@
 {
   "id": "pack_event_03",
   "name": "Cyber Surge",
-  "revision": 1,
+  "revision": 2,
   "themeColor": "#00F5D4",
   "secondaryColor": "#FFD369",
   "icon": "event_lightning",

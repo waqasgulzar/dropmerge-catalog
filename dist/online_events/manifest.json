@@ -1,7 +1,7 @@
 {
-  "catalogVersion": 6,
+  "catalogVersion": 7,
   "minAppVersion": "0.1.0",
-  "publishedAtUtc": "2026-11-23T10:48:26.7580749Z",
+  "publishedAtUtc": "2026-11-23T12:58:41.3616473Z",
   "packs": [
     {
       "id": "pack_chapter_1",
@@ -370,8 +370,8 @@
     {
       "id": "pack_event_01",
       "name": "Neon Rush",
-      "revision": 1,
-      "sha256": "ea2db767bba6f90879faae5eb8dc6c3947979aad367e4a6250d82c22df6c8dc2",
+      "revision": 2,
+      "sha256": "43b145878ad0ee53550a8cd5ca689ba782222e45fe9f6516047ab17b790dd270",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_01.json",
       "themeColor": "#FF2A85",
@@ -384,8 +384,8 @@
     {
       "id": "pack_event_02",
       "name": "Frost Cascade",
-      "revision": 1,
-      "sha256": "61ccde99f2793b7044b902134a6ceeb808ff6c2ced2d2f9fe075766d93c63345",
+      "revision": 2,
+      "sha256": "1a823ba91f1216870d7d369e8036fb13879e2d0ad8888aaafd760ebcabaa330a",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_02.json",
       "themeColor": "#38D5E8",
@@ -398,8 +398,8 @@
     {
       "id": "pack_event_03",
       "name": "Cyber Surge",
-      "revision": 1,
-      "sha256": "a10f3b4be8f00b198cadabd6a517eb9ed03579956b0bb5d270a677753733ad98",
+      "revision": 2,
+      "sha256": "1c72fc82723e3361b92773982c55108a3def1b5a3243366610a3fe7e4729b45b",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_03.json",
       "themeColor": "#00F5D4",
@@ -412,8 +412,8 @@
     {
       "id": "pack_event_04",
       "name": "Gem Blitz",
-      "revision": 1,
-      "sha256": "cfeff261466db15eb62864ded43d33a377b0c106590e49d678a6acb11eb3c476",
+      "revision": 2,
+      "sha256": "0b549fb032ea974a12ceabcc3e2f97badc5cfd7e256fc43c26d6c3a944b4fc51",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_04.json",
       "themeColor": "#FFD369",
@@ -426,8 +426,8 @@
     {
       "id": "pack_event_05",
       "name": "Solar Flare",
-      "revision": 1,
-      "sha256": "898474de7af33f46386e46fccfb70fd16dc228d9735fa52bc70577ff0c6bfebf",
+      "revision": 2,
+      "sha256": "61574e28a80634f02d06e9ea410b660ef12b74de58f10dae7d4f1d370ea3706b",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_05.json",
       "themeColor": "#FF6B6B",
@@ -440,8 +440,8 @@
     {
       "id": "pack_event_06",
       "name": "Prism Vortex",
-      "revision": 1,
-      "sha256": "215d9d0b32b54429292a4a19c0c109361b218fad28596429f22a74e37b95f691",
+      "revision": 2,
+      "sha256": "2f42f57b0667e07c3bb0b4ab861e88980e321341d9c78b8cd56c3d1fed13a118",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_06.json",
       "themeColor": "#9B5DE5",
@@ -454,8 +454,8 @@
     {
       "id": "pack_event_07",
       "name": "Apex Trial",
-      "revision": 1,
-      "sha256": "10ce28a5e68e8b669132525c4f6cb3670283ac2aa9b6c2a43a7a194188a6ef15",
+      "revision": 2,
+      "sha256": "9a73c173d66da0536e1e4685391e9f98a288f0641c35361ce1c851419f920bf0",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_07.json",
       "themeColor": "#F15BB5",
@@ -468,8 +468,8 @@
     {
       "id": "pack_event_08",
       "name": "Quantum Leap",
-      "revision": 1,
-      "sha256": "e26ed6bc939a8bf7b10d90f24c36c6045b7c984caf37e58f18be1be4805c354f",
+      "revision": 2,
+      "sha256": "6d9f283450b4108981d4041f1fa34442260257e63ad065faf45a1d638c4add1d",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_08.json",
       "themeColor": "#00BBF9",
@@ -482,8 +482,8 @@
     {
       "id": "pack_event_09",
       "name": "Twilight Echo",
-      "revision": 1,
-      "sha256": "3be7cc0f3702589f433060ce508bd804c07c8f1b21d6510fbd92dd8bda7575e9",
+      "revision": 2,
+      "sha256": "0ec0ccd9c8f3f998007c612d555f5db53f7350fa9e9c88ea9e42856967d9d1dc",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_09.json",
       "themeColor": "#7209B7",
@@ -496,8 +496,8 @@
     {
       "id": "pack_event_10",
       "name": "Inferno Sprint",
-      "revision": 1,
-      "sha256": "3a3ac442adf975ab5854ad4392155acf3e2b699d51c6133def96e734122fffd7",
+      "revision": 2,
+      "sha256": "46512c6c998e6fcfeb59a811601201f702e87f74d4ca1a27b7cc939a2816d4e5",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_10.json",
       "themeColor": "#E63946",
@@ -510,8 +510,8 @@
     {
       "id": "pack_event_11",
       "name": "Aurora Wave",
-      "revision": 1,
-      "sha256": "3716fce104348d3d09a55bc5a66f3256512aaa850ad772e4c1ba45e9f1a14535",
+      "revision": 2,
+      "sha256": "908a7fa160c3d4beffa9c63421b4d1e87a8a2863527312363437c049123ca0c4",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_11.json",
       "themeColor": "#2A9D8F",
@@ -524,8 +524,8 @@
     {
       "id": "pack_event_12",
       "name": "Titan Fortress",
-      "revision": 1,
-      "sha256": "ec28ea2738ab3228d8acc4295577ec242a181e4a0bef9757e97ebd977e74261b",
+      "revision": 2,
+      "sha256": "74fb65eec73c15142ebf272cdb6404f2987199f07496541aad71dd9e6824bcb4",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_12.json",
       "themeColor": "#4A4E69",
@@ -538,8 +538,8 @@
     {
       "id": "pack_event_13",
       "name": "Supernova",
-      "revision": 1,
-      "sha256": "3828607302be6577c64d9a154be463414cd55130145b8a50db3fcb0bede8e5ee",
+      "revision": 2,
+      "sha256": "1c2717ad398350d1d424305f5c108e73c3488b59c809b84199acc1ea1a635009",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_13.json",
       "themeColor": "#FF007F",
@@ -552,8 +552,8 @@
     {
       "id": "pack_event_14",
       "name": "Grand Championship",
-      "revision": 1,
-      "sha256": "10153f1db958271d61f4051252bf6af69e8ed3f3929e0681d32f3ac16cc04fbf",
+      "revision": 2,
+      "sha256": "3915cad110b6a322a4f96bcca7921e6fb6ab7a3aeb7d1c08e8f9a4295295d23c",
       "levelCount": 5,
       "url": "https://waqasgulzar.github.io/dropmerge-catalog/dist/catalog/packs/pack_event_14.json",
       "themeColor": "#FFD700",

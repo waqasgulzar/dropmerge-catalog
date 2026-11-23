@@ -1,7 +1,7 @@
 {
   "id": "pack_event_05",
   "name": "Solar Flare",
-  "revision": 1,
+  "revision": 2,
   "themeColor": "#FF6B6B",
   "secondaryColor": "#FFE66D",
   "icon": "event_sun",
